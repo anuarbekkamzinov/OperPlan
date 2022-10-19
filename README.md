@@ -20,9 +20,11 @@
 #### Добавление пакетов SDK
 
 Запустите **Android Studio**. Нажмите `More Actions` -> `SDK Manager`
+
 ![](readme-images/AndroidStudioSDK-maneger.png)
 
 Установите `Android build tools version 30.0.3`. Перейдите на вкладку `SDK Tools`, установите галочки `Hide Obsolete Packages` и `Show Package Details`. Разверните детали пакета `Android SDK build-tools 33` и установите версию `30.0.3`. Нажмите кнопку `Apply` и дождитесь завершения установки.
+
 ![](readme-images/AndroidStudioSDK-build.png)
 
 
