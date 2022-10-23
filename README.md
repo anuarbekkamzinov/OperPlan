@@ -88,8 +88,8 @@ This is required for the apksigner and zipalign tools.
 
 Добавить эти пути в переменную `PATH`:
 
-`%USERPROFILE%\AppData\Local\Android\Sdk\platform-tools`
-`%USERPROFILE%\AppData\Local\Android\Sdk\cmdline-tools\latest\bin`
+`%USERPROFILE%\AppData\Local\Android\Sdk\platform-tools` <br>
+`%USERPROFILE%\AppData\Local\Android\Sdk\cmdline-tools\latest\bin` <br>
 `%USERPROFILE%\AppData\Local\Android\Sdk\tools\emulator`
 
 ![](readme-images/PATH.png)
