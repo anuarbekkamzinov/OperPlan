@@ -8,7 +8,7 @@
 
 ### Платформа Android
 
-[Официальная инструкция по настройке от Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html#requirements-and-support)
+[Официальная инструкция по настройке от Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html#requirements-and-support) <br>
 [Требования к системе](https://developer.android.com/studio#Requirements)
 
 - Установите [Node.js](https://nodejs.org/en/)
@@ -101,3 +101,15 @@ This is required for the apksigner and zipalign tools.
 ![](readme-images/ANDROID_SDK_ROOT.png)
 
 После того, как все пути будут добавлены, нажимайте кнопку OK, пока все открытые окна для установки и редактирования переменных среды не будут закрыты.
+
+## Сборка и запуск проекта
+
+- `npm install` - установит все зависимости npm
+- `npm install -g cordova` - установит глобально cordova
+
+Сборка для Android:
+
+- `cordova platform add android` - добавит Android платформу в проект
+- `cordova build android` - сборка проекта. Собранное приложение находится по пути `\platforms\android\app\build\outputs\apk\debug`. Можно копировать приложение на телефон и устанавливать.
+
+- `cordova run android` - сборка и запуск приложения на телефоне или в эмуляторе.
