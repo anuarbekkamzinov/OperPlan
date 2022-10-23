@@ -56,8 +56,8 @@ This is required for the apksigner and zipalign tools.
 
 Чтобы обновить `PATH`, добавьте строку, подобную следующей (замените пути на местоположение вашей локальной установки Android SDK):
 
-`export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/`
-`export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/`
+`export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/` <br>
+`export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/` <br>
 `export PATH=$PATH:$ANDROID_SDK_ROOT/emulator/`
 
 Перезагрузите терминал, чтобы увидеть это изменение, или выполните следующую команду:
