@@ -11,9 +11,10 @@
 [Официальная инструкция по настройке от Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html#requirements-and-support)
 [Требования к системе](https://developer.android.com/studio#Requirements)
 
-- Установите [Java Development Kit (JDK) 11](https://www.oracle.com/java/technologies/downloads/#java11-windows)
+- Установите [Node.js](https://nodejs.org/en/)
+- Установите [Java Development Kit (JDK) 11](https://www.oracle.com/java/technologies/downloads/#java11) (нужна регистрация) <br>
   *Переменная среды `JAVA_HOME` должна быть установлена ​​в соответствии с вашим путем установки JDK при установке в среде Windows. См. раздел  **[«Настройка переменных среды»](#настройка-переменных-среды)** о том, как настроить переменные среды.*
-- Установите [Gradle](https://gradle.org/install/).
+- Установите [Gradle](https://gradle.org/install/). <br>
   *При установке в Windows вам необходимо добавить `PATH` к двоичному каталогу **Gradle** в переменную среды пути. См. **[«Настройка переменных среды»](#настройка-переменных-среды)**) о том, как настроить системные переменные среды.*
 - Установите [Android Studio](https://developer.android.com/studio)
 
@@ -54,6 +55,7 @@ This is required for the apksigner and zipalign tools.
 `export ANDROID_SDK_ROOT=/Development/android-sdk/`
 
 Чтобы обновить `PATH`, добавьте строку, подобную следующей (замените пути на местоположение вашей локальной установки Android SDK):
+
 `export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/`
 `export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/`
 `export PATH=$PATH:$ANDROID_SDK_ROOT/emulator/`
@@ -85,6 +87,7 @@ This is required for the apksigner and zipalign tools.
 4. Введите соответствующее местоположение.
 
 Добавить эти пути в переменную `PATH`:
+
 `%USERPROFILE%\AppData\Local\Android\Sdk\platform-tools`
 `%USERPROFILE%\AppData\Local\Android\Sdk\cmdline-tools\latest\bin`
 `%USERPROFILE%\AppData\Local\Android\Sdk\tools\emulator`
@@ -92,6 +95,7 @@ This is required for the apksigner and zipalign tools.
 ![](readme-images/PATH.png)
 
 Создайте следующее значение в переменную `ANDROID_SDK_ROOT`:
+
 `%USERPROFILE%\AppData\Local\Android\Sdk`
 
 ![](readme-images/ANDROID_SDK_ROOT.png)
