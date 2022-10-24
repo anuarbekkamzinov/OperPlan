@@ -22,7 +22,7 @@ export default new Router({
       children: [
         {
           path: 'teh-dom',
-          name: 'OperPlanMart',
+          name: 'OperPlanTehDom',
           component: TehDom,
           props: { displayName: 'Техно Дом' },
         },

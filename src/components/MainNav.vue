@@ -7,11 +7,11 @@
         <v-list-item
           v-for="(rout, index) in nav"
           :key="rout.path"
-          @click="navItemClick(rout)"
+          @click.stop="navItemClick(rout)"
         >
           <v-list-item-content>
             <v-list-item-title>
-              {{ index + 1 }}. {{ rout.props.displayName }}
+                {{ index + 1 }}. {{ rout.props.displayName }}
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -32,8 +32,6 @@ export default {
   },
   methods: {
     navItemClick(rout) {
-      console.log(rout);
-
       this.$router.push({ name: rout.name });
     },
   },
