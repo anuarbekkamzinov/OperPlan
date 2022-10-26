@@ -3,10 +3,16 @@
 import vuetify from '@/plugins/vuetify';
 
 import Vue from 'vue';
+import Photoswipe from 'vue-pswipe';
 import App from './App';
 import router from './router';
 
 Vue.config.productionTip = false;
+
+Vue.use(Photoswipe, {
+  bgOpacity: 1,
+  escKey: true,
+});
 
 /* eslint-disable no-new */
 new Vue({
