@@ -4,6 +4,7 @@ import vuetify from '@/plugins/vuetify';
 
 import Vue from 'vue';
 import Photoswipe from 'vue-pswipe';
+
 import App from './App';
 import router from './router';
 

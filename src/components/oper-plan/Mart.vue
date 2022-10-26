@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Март</h2>
+    <h2 class="text-center">Март</h2>
   </div>
 </template>
 
@@ -10,4 +10,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" src="@/styles/oper-plan-pages.scss" module></style>
