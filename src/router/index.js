@@ -6,6 +6,7 @@ import TehDom from '@/components/oper-plan/TehDom';
 import Mart from '@/components/oper-plan/Mart';
 import Tsum from '@/components/oper-plan/Tsum';
 import SchoolOne from '@/components/oper-plan/SchoolOne';
+import GymnasiumTwo from '@/components/oper-plan/GymnasiumTwo';
 
 Vue.use(Router);
 
@@ -28,6 +29,12 @@ export default new Router({
           props: {
             displayName: 'КГУ “Средняя школа №1” Акимата города Рудного  адрес: ул Дзержинского 19',
           },
+        },
+        {
+          path: 'gymnasium-two',
+          name: 'OperPlanGymnasiumTwo',
+          component: GymnasiumTwo,
+          props: { displayName: 'КГУ “Гимназия №2” Акимата города Рудного адрес: ул Ленина 73' },
         },
         {
           path: 'teh-dom',
