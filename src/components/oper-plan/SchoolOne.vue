@@ -1,5 +1,6 @@
 <template>
   <div>
+   <div class="text-right font-weight-bold">
     <p>
       «Утверждаю» <br>
       Начальник гарнизона <br>
@@ -10,6 +11,7 @@
     <h2 class="text-center">ОПЕРАТИВНЫЙ ПЛАН ТУШЕНИЯ ПОЖАРА</h2>
     <h3 class="text-center">Средняя школа №1</h3>
     <p class="text-center">г. Рудный. 7 квартал, ул. Дзержинского 19</p>
+   </div>
 
     <p>Расстояние от СПЧ-2: 0,5 км</p>
 

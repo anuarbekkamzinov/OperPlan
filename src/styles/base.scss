@@ -15,6 +15,10 @@ dl {
   & > dt, & > dd {
     width: 50%;
   }
+
+  & > dd {
+    padding-left: 20px;
+  }
 }
 
 table, th, td {
