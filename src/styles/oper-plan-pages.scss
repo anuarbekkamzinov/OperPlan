@@ -1,3 +1,5 @@
-.centerHeader {
-  text-align: center;
+.pswipe-gallery {
+  > img {
+    display: block;
+  }
 }
