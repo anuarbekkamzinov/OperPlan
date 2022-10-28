@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 :class="a.red">Техно Дом</h2>
+    <h2 :class="$style.centerHeader">Техно Дом</h2>
     <photoswipe auto>
       <img
         src="/static/images/demo1.jpg"
@@ -68,12 +68,3 @@ export default {
 </script>
 
 <style lang="scss" src="@/styles/oper-plan-pages.scss" module></style>
-
-<style module="a">
-.red {
-  color: red;
-}
-.bold {
-  font-weight: bold;
-}
-</style>
