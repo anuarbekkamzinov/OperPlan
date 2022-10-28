@@ -5,6 +5,7 @@ import OperPlan from '@/components/OperPlan';
 import TehDom from '@/components/oper-plan/TehDom';
 import Mart from '@/components/oper-plan/Mart';
 import Tsum from '@/components/oper-plan/Tsum';
+import SchoolOne from '@/components/oper-plan/SchoolOne';
 
 Vue.use(Router);
 
@@ -20,6 +21,14 @@ export default new Router({
       name: 'OperPlan',
       component: OperPlan,
       children: [
+        {
+          path: 'school-one',
+          name: 'OperPlanSchoolOne',
+          component: SchoolOne,
+          props: {
+            displayName: 'КГУ “Средняя школа №1” Акимата города Рудного  адрес: ул Дзержинского 19',
+          },
+        },
         {
           path: 'teh-dom',
           name: 'OperPlanTehDom',
