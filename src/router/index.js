@@ -24,12 +24,6 @@ export default new Router({
       component: OperPlan,
       children: [
         {
-          path: 'school-three',
-          name: 'OperPlanSchoolThree',
-          component: SchoolThree,
-          props: { displayName: 'КГУ “Средняя школа №3” Акимата города Рудного  адрес: ул Корчагина 168' },
-        },
-        {
           path: 'school-one',
           name: 'OperPlanSchoolOne',
           component: SchoolOne,
@@ -42,6 +36,12 @@ export default new Router({
           name: 'OperPlanGymnasiumTwo',
           component: GymnasiumTwo,
           props: { displayName: 'КГУ “Гимназия №2” Акимата города Рудного адрес: ул Ленина 73' },
+        },
+        {
+          path: 'school-three',
+          name: 'OperPlanSchoolThree',
+          component: SchoolThree,
+          props: { displayName: 'КГУ “Средняя школа №3” Акимата города Рудного  адрес: ул Корчагина 168' },
         },
         {
           path: 'teh-dom',

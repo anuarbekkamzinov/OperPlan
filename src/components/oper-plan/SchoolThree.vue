@@ -49,7 +49,7 @@
         Номера телефонов:
       </p>
       <p>
-        - директор 5-80-57
+        - директор <a href="tel:+77143158057">5-80-57</a>
       </p>
       <p>
         <strong> </strong>
@@ -5555,8 +5555,8 @@
 </template>
 
 <script>
-import ThreatLevel from '@/components/oper-plan/ThreatLevel';
-import PlanAccounting from '@/components/oper-plan/PlanAccounting';
+import ThreatLevel from '@/components/oper-plan/parts/ThreatLevel';
+import PlanAccounting from '@/components/oper-plan/parts/PlanAccounting';
 
 export default {
   name: 'SchoolThree',
