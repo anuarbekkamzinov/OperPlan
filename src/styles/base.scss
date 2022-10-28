@@ -2,3 +2,42 @@ img {
   width: 100%;
   height: auto;
 }
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > dt, & > dd {
+    width: 50%;
+  }
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+table {
+  margin: 20px auto 30px;
+}
+
+.table-container {
+  overflow: auto;
+  margin: 20px auto 30px;
+
+  table {
+    margin: auto;
+  }
+}
+
+ul {
+  margin-bottom: 20px;
+}
